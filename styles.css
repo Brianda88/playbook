@@ -1,0 +1,45 @@
+  body {
+    background-color: #F4BFBF;
+  }
+
+  /* A cleaner way to code this would've been:
+border-style: none;
+  border-top-style: dotted;
+
+  */
+  hr {
+    border-top-style: dotted;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-width: thick;
+    border-color: white;
+    width: 40px;
+  }
+
+  h1 {
+    color: #F46B0D;
+  }
+
+  h3 {
+    color: #F59714;
+  }
+
+  .spider {
+    background-color: #FF5152;
+  }
+
+  .butterfly {
+    background-color: #6D9F3B;
+  }
+
+  .snail {
+  background-color: #F7DB1D;
+}
+.circular {
+  border-radius: 100%;
+}
+
+  #heading {
+    color: #6F2408;
+  }

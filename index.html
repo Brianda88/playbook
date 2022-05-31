@@ -4,7 +4,11 @@
 <head>
   <meta charset="utf-8">
   <title>Code Playbook</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+
 </head>
+
 
 <body>
   <table cellspacing="20">
@@ -12,7 +16,7 @@
       <td> <img src="orange.png" alt="orange" width="200" height="auto">
       </td>
       <td>
-        <h1>Code Playbook 2022</h1>
+        <h1 id="heading">Code Playbook 2022</h1>
         <p>Home for my beginner code snippets.</p>
         <p><a href="second_page.html">My second page »</a></p>
       </td>
@@ -47,6 +51,18 @@
       <td>Emoji keyboard:</td>
       <td>Command + Control + Space</td>
     </tr>
+    <tr>
+      <td>{Wavy Brackets}:</td>
+      <td>Option + Shift + 8/9</td>
+    </tr>
+    <tr>
+      <td>[Brackets]</td>
+      <td>Option + 8/9</td>
+    </tr>
+    <tr>
+      <td>Beautify code</td>
+      <td>Control + Option + B</td>
+    </tr>
   </table>
   <hr>
   <h3>Lists</h3>
@@ -69,7 +85,7 @@
     <li>four</li>
   </ol>
   <hr>
-  <h4>Images</h4>
+  <h3>Images</h3>
   <p>Images: <code>img src="orange.png" alt="orange" width="200" height="auto"</code></p>
   <img src="orange.png" alt="orange" width="200" height="auto">
   <hr>
@@ -93,7 +109,7 @@
     </tr>
   </table>
   <hr>
-  <h4>Inputs Gallery</h4>
+  <h3>Inputs Gallery</h3>
   <table>
     <tr>
       <td><code>input type="text" </code></td>
@@ -168,6 +184,41 @@
       <td><input type="url"></td>
     </tr>
   </table>
+  <hr>
+  <h3>CSS Tag vs Class vs ID Selectors</h3>
+  <p>Use <strong>class</strong> to target groups and <strong>ID</strong> when you want to be more specific. A particular ID can only be used once inside a page.</p>
+  <h4>
+    Tag Selector
+  </h4>
+  <code>img {
+    background-color: red;
+    }</code>
+  <h4>Class Selectors</h4>
+  <code>
+    .spider{
+    background-color: #FF5152;
+    }
+  </code><br>
+  <code>.butterfly{
+    background-color: #6D9F3B;
+  }</code><br>
+  <code>.snail {
+    background-color: #F7DB1D;
+  </code><br><br>
+  <img class="spider" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/google/313/spider_1f577-fe0f.png" alt="spider" width="100" height="auto">
+  <img class="butterfly" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/microsoft/310/butterfly_1f98b.png" alt="butterfly" width="100" height="auto">
+  <img class="snail" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/google/313/snail_1f40c.png" alt="snail" width="100" height="auto"><br>
+
+<p>Any html elements can have more than one class.</p>
+<code>img class="snail circular"</code><br><br>
+<img class="snail circular" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/google/313/snail_1f40c.png" alt="snail" width="100" height="auto"><br>
+<code>.circular {border-radius: 100%}</code>
+
+  <h4>ID Selectors</h4>
+  <p>Ie. giving an ID to H1: <code>h1 id="heading"</code></p>
+  <p>In CSS you would target it like dis: <code>#heading { color: #6F2408;}</code>
+
+
 </body>
 
 </html>
